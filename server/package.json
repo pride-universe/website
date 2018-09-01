@@ -1,0 +1,38 @@
+{
+  "name": "pride-universe-website",
+  "version": "1.0.0",
+  "description": "Website of Pride Universe",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pride-universe/website.git"
+  },
+  "author": "NbOpposite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pride-universe/website/issues"
+  },
+  "homepage": "https://github.com/pride-universe/website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "client-oauth2": "^4.2.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-unless": "^0.5.0",
+    "jsrsasign": "^8.0.12",
+    "morgan": "^1.9.0",
+    "popsicle": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "semistandard": "^12.0.1"
+  },
+  "localDependencies": {
+    "node-ipc-requests": "../../node-ipc-requests"
+  }
+}
